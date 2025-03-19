@@ -1,0 +1,55 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #baa593;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    color: white;
+}
+
+/* Header */
+header {
+    background-color: #444;
+    color: white;
+    padding: 20px;
+}
+
+/* Section Styling */
+.section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Buttons */
+.btn {
+    background-color: #ff9800;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px;
+    transition: background-color 0.3s ease-in-out, transform 0.2s;
+}
+
+.btn:hover {
+    background-color: #e68900;
+    transform: scale(1.1);
+}
+
+.btn:active {
+    background-color: #c76d00;
+    transform: scale(0.95);
+}

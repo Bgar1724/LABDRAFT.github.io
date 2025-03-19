@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>LAB08_ARTPAGE DRAFT</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frida Kahlo's Art and Their Hidden Meanings</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>"Frida Kahlo's Art and Their Hidden Meanings"</h1>
+        <p>"I paint myself because I am often alone and I am the subject I know best." - Frida Kahlo</p>
+    </header>
+    <a href="NOT READY YET #1" class="btn">Home</a>
+    <a href="NOT READY YET #2" class="btn">Paintings & Hidden Meanings</a>
+    <a href="NOT READY YET #3" class="btn">Legacy</a>
+
+    <!-- Famous Paintings -->
+    <section class="section" id="about-me">
+        <img src="https://www.fridakahlo.org/assets/img/paintings/the-two-fridas.jpg" width="500" height="500" alt="Two Fridas">
+        <figcaption>"The Two Fridas" - Frida Kahlo (1939)</figcaption> TWO FRIDAS - 1939
+        <p>SUMMARY:</p>
+        <p>This painting of "The Two Fridas" was done while Frida was going through her first and only divorce with Diego Rivera in 1939, whom she remarried a year later.</p>
+        <p>• Represents her dual heritage crisis.</p>
+        <p>• Memories of an imaginary childhood friend.</p>
+        <p>• Desperation and loneliness after a divorce.</p>
+        <a href="https://www.fridakahlo.org/the-two-fridas.jsp" target="_blank" class="btn">Learn More</a>
+    </section>
+
+    <!-- Painting #2 -->
+    <section class="section">
+        <div class="gallery">
+            <figure>
+                <img src="https://www.fridakahlo.org/assets/img/paintings/self-portrait-with-necklace-of-thorns.jpg" alt="Frida Kahlo - Self Portrait with Necklace of Thorns"<"width="500" height="500">
+                <figcaption>Frida Kahlo - Self Portrait with Necklace of Thorns</figcaption>
+            </figure>
+          <p> Frida Kahlo created this painting to express both her physical and emotional pain, particularly from her recent divorce with Diego Rivera. She also represents her ongoing health struggles. </p>
+  
+          
+          
+          <p>• Suffering  </p>
+          <p>• Struggle of Indenity   </p> 
+          <p>• Death and Resurrection </p>
+          <p>• Self-Denial and Sacrifice 
+        </div>
+      <a href="https://www.fridakahlo.org/the-two-fridas.jsp" target="_blank" class="btn">Learn More</a>
+    </section>
+<!-- HOVER EFFECT ------>
+<script>
+    const images = document.querySelectorAll("img");
+    images.forEach(image => {
+        image.addEventListener("mouseover", function() {
+            image.style.transform = "scale(1.2)";
+            image.style.transition = "transform 0.3s ease";
+        });
+        image.addEventListener("mouseout", function() {
+            image.style.transform = "scale(1)";
+        });
+    });
+</script>
+
+    <!-- Footer -->
+    <footer>
+        <p>Created by Bryan Garcia Diaz - GD107 Lab 08
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
